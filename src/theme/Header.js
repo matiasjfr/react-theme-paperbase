@@ -75,7 +75,7 @@ function Header(props) {
             </Grid>
             <Grid item>
               <IconButton color="inherit" className={classes.iconButtonAvatar}>
-                <Avatar className={classes.avatar} src="/static/images/avatar/1.jpg" />
+                <Avatar className={classes.avatar} src="https://material-ui.com/static/images/avatar/7.jpg" />
               </IconButton>
             </Grid>
           </Grid>
