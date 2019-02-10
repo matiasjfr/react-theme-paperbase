@@ -40,4 +40,4 @@ Open a BASH prompt and navigate to the location where your app will live.
 
 ## Component Layout ##
 
- ![layout](https://imgur.com/a/DhVpsCD)
+ ![layout](https://i.imgur.com/I8trfmX.png)
