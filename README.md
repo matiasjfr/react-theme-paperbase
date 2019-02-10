@@ -13,5 +13,30 @@ This project extends [Create React App](https://github.com/facebook/create-react
 
  * [React Router](https://reacttraining.com/react-router)
 
- ## Getting Started ##
- lorem ipsum
+## Getting Started ##
+
+Open a BASH prompt and navigate to the location where your app will live.
+
+1. Create a new folder to hold your app.
+
+  `mkdir my-app`
+
+2. Clone this project to your new folder.
+
+  `git clone https://github.com/ckriewall/react-theme-paperbase.git`
+
+3. Start the App
+
+  `yarn start`
+
+## File Structure ##
+
+ * `src\components`: React components containing the app content
+ * `src\theme`: MUI components providing site structure and styles
+ * `src\theme\Content`: default content provided by Paperbase
+ * `src\theme\Header`: top navbar
+ * `src\theme\Navigator`: collapsing left navbar
+ * `src\theme\Paperbase`: root document of the Paperbase theme. Calls Header and Navigator components
+
+## Component Layout ##
+ ![layout](https://ibb.co/wKRGXxN)
