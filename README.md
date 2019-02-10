@@ -39,4 +39,5 @@ Open a BASH prompt and navigate to the location where your app will live.
  * `src\theme\Paperbase`: root document of the Paperbase theme. Calls Header and Navigator components
 
 ## Component Layout ##
- ![layout](https://ibb.co/wKRGXxN)
+
+ ![layout](https://imgur.com/a/DhVpsCD)
