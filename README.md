@@ -38,6 +38,13 @@ Open a BASH prompt and navigate to the location where your app will live.
  * `src\theme\Navigator`: collapsing left navbar
  * `src\theme\Paperbase`: root document of the Paperbase theme. Calls Header and Navigator components
 
+## Routing ##
+Routing is implemented in the Navigator component. The `categories` variable contains two Link Categories. Customize the links by passing values to any object in categories.children:
+
+ * **id**: link text (e.g. "New Page")
+ * **icon**: any imported [Material-UI icon](https://material.io/icons/)
+ * **targetUrl**: path of the new route (e.g. "/newpage")
+
 ## Component Layout ##
 
- ![layout](https://i.imgur.com/I8trfmX.png)
+ ![layout](https://i.imgur.com/1B2ii5A.png)

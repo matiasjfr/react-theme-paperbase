@@ -24,10 +24,10 @@ import PhonelinkSetupIcon from "@material-ui/icons/PhonelinkSetup";
 
 const categories = [
   {
-    id: "Develop",
+    id: "Links Category 1",
     children: [
-      { id: "Authentication", icon: <PeopleIcon />, targetUrl: "/component1", active: true },
-      { id: "Database", icon: <DnsRoundedIcon />, targetUrl: "/component2" },
+      { id: "Component 1", icon: <PeopleIcon />, targetUrl: "/component1", active: true },
+      { id: "Component 2", icon: <DnsRoundedIcon />, targetUrl: "/component2" },
       { id: "Storage", icon: <PermMediaOutlinedIcon />, targetUrl: "/storage" },
       { id: "Hosting", icon: <PublicIcon />, targetUrl: "/hosting" },
       { id: "Functions", icon: <SettingsEthernetIcon />, targetUrl: "/functions" },
@@ -35,7 +35,7 @@ const categories = [
     ]
   },
   {
-    id: "Quality",
+    id: "Links Category 2",
     children: [
       { id: "Analytics", icon: <SettingsIcon />, targetUrl: "/analytics" },
       { id: "Performance", icon: <TimerIcon />, targetUrl: "/performance" },
