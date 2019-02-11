@@ -15,15 +15,20 @@ This project extends [Create React App](https://github.com/facebook/create-react
 
 ### Getting Started ###
 
-Open a BASH prompt and navigate to the location where your app will live.
+Open a BASH prompt.
 
-1. Create a new folder to hold your app.
-
-  `mkdir my-app`
-
+1. Browse to the location where you project will live.
 2. Clone this project to your new folder.
 
   `git clone https://github.com/ckriewall/react-theme-paperbase.git`
+
+3. Navigate to the project root.
+
+ `cd react-theme-paperbase`
+
+4. Install dependencies
+
+ `yarn install`
 
 3. Start the App
 
@@ -33,10 +38,10 @@ Open a BASH prompt and navigate to the location where your app will live.
 
  * `src\components`: React components containing the app content
  * `src\theme`: MUI components providing site structure and styles
-  * `src\theme\Content`: default content provided by Paperbase
-  * `src\theme\Header`: top navbar
-  * `src\theme\Navigator`: collapsing left navbar
-  * `src\theme\Paperbase`: root document of the Paperbase theme. Calls Header and Navigator components
+ * `src\theme\Content`: default content provided by Paperbase
+ * `src\theme\Header`: top navbar
+ * `src\theme\Navigator`: collapsing left navbar
+ * `src\theme\Paperbase`: parent container of Paperbase theme. Calls `Header` and `Navigator` components
 
 ### Routing ###
 Routing is implemented in `src\theme\Navigator`. The `categories` variable contains two **Link Categories**. Customize links by providing values to any object in `categories.children`:
@@ -56,7 +61,7 @@ Routing is implemented in `src\theme\Navigator`. The `categories` variable conta
 }
 ```
 
-Then, handle the routes in `src\theme\Paperbase`.
+Finally, handle component rendering in `src\theme\Paperbase`. Specify the component to load for each link defined in the navigation.
 
 ```javascript
 <main className={classes.mainContent}>
